@@ -13,6 +13,8 @@
 		796807571EB185D30030A9D3 /* reversi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 796807551EB185D30030A9D3 /* reversi.xcdatamodeld */; };
 		796807591EB185D30030A9D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 796807581EB185D30030A9D3 /* Assets.xcassets */; };
 		7968075C1EB185D30030A9D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7968075A1EB185D30030A9D3 /* LaunchScreen.storyboard */; };
+		796807641EB18F650030A9D3 /* uiview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796807631EB18F650030A9D3 /* uiview.swift */; };
+		796807661EB19F070030A9D3 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796807651EB19F070030A9D3 /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		796807581EB185D30030A9D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7968075B1EB185D30030A9D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7968075D1EB185D30030A9D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		796807631EB18F650030A9D3 /* uiview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = uiview.swift; sourceTree = "<group>"; };
+		796807651EB19F070030A9D3 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = File.swift; path = ../File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				7968075A1EB185D30030A9D3 /* LaunchScreen.storyboard */,
 				7968075D1EB185D30030A9D3 /* Info.plist */,
 				796807551EB185D30030A9D3 /* reversi.xcdatamodeld */,
+				796807631EB18F650030A9D3 /* uiview.swift */,
+				796807651EB19F070030A9D3 /* File.swift */,
 			);
 			path = reversi;
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				796807661EB19F070030A9D3 /* File.swift in Sources */,
+				796807641EB18F650030A9D3 /* uiview.swift in Sources */,
 				796807511EB185D30030A9D3 /* ViewController.swift in Sources */,
 				796807571EB185D30030A9D3 /* reversi.xcdatamodeld in Sources */,
 				7968074F1EB185D30030A9D3 /* AppDelegate.swift in Sources */,
